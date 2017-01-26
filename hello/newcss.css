@@ -1,0 +1,139 @@
+      
+         h1 {
+                text-align: center;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+            
+            
+         #first  {
+                width: 30%;
+                height: 50%;
+                background-color: #808080 ;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                padding: 40px 10px 10px 10px;  
+                border: 2px solid black;
+                overflow: hidden;
+                position: relative;
+                margin-left: 0px;
+                margin-right: 10px;
+                float: left;
+    
+                }
+       
+        #first #second{
+                background-color: #FF7F50;
+                width: 70px;
+                height: 20px;
+                box-sizing: content-box;
+                text-align: center;
+                border: 1px solid black;
+                position: absolute;
+                top:0%;
+                left: 0%;
+                      }
+                      
+        #second {
+                padding: 5px;
+                }
+                
+        #third {
+               width: 30%;
+               height: 50%;
+               background-color: #808080 ;
+               font-family: "Comic Sans MS", cursive, sans-serif;
+               padding: 40px 10px 10px 10px;  
+               border: 2px solid black;
+               overflow: hidden;
+               position: relative;
+               float: left;
+               margin-right: 10px;
+    
+                }
+                
+        #third #fourth {
+               position: absolute;
+               background-color: #6699FF;
+               box-sizing: content-box;
+               text-align: center;
+               border: 1px solid black;
+               position: absolute;
+               top:0%;
+               left: 0%; 
+               float: left;
+               width: 70px;
+               height: 20px;
+    
+                        }
+        #fourth{
+              padding: 5px;
+              width: 70px;
+              height: 20px;
+              box-sizing: content-box;
+            }
+              
+        #fifth {
+                width: 30%;
+                height: 50%;
+                background-color: #808080 ;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                padding: 40px 10px 10px 10px;  
+                border: 2px solid black;
+                overflow: hidden;
+                position: relative;
+                margin-left: 0px;
+                margin-right: 10px;
+                float: left;   
+                    }    
+                    
+                    #fifth #sixth {
+                background-color: #FFFF66;
+                width: 70px;
+                height: 20px;
+                box-sizing: content-box;
+                text-align: center;
+                border: 1px solid black;
+                position: absolute;
+                top:0%;
+                left: 0%;                 
+                    }            
+        #sixth{
+              padding: 5px;
+              width: 70px;
+              height: 20px;
+              box-sizing: content-box;
+            }
+// MEDIA QUERIES 
+
+@media (min-width: 992px) {
+    div {
+        width:95%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+                #first, #third  {
+                    width: 45%;
+                    float: left;
+                    margin: 5px;
+                }
+                #third {
+                    float: right;
+                    width: 45%;
+                    margin: 5px;
+                
+                }
+                #fifth{
+                    width: 96.8%;
+                    float: left;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    height: 50%;
+                }
+            }
+            @media (max-width:767px) {
+                #first, #third, #fifth {
+                    width:100%;
+                    margin:3px;
+                }
+            }        
+            
